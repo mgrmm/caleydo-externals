@@ -1,0 +1,22 @@
+{
+  "name": "dataset-sql",
+  "version": "0.0.1",
+  "caleydo": {
+    "python-server-plugins": [
+      {
+        "type": "dataset-provider2",
+        "id": "dataset-sql",
+        "module": "dataset-sql/sql"
+      },
+      {
+        "type": "idtype-provider2",
+        "id": "idtype-sql",
+        "module": "dataset-sql/sql",
+        "factory": "list"
+      }
+    ],
+    "python-pip": {
+      "numpy": ">=1.8.2"
+    }
+  }
+}
